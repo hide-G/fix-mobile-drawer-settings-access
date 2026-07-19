@@ -1,0 +1,17 @@
+.DS_Store
+node_modules
+
+!.gitkeep
+
+/*/dist/**
+
+# MkDocs documentation
+site*/
+.cache
+
+# Jest snapshot fix files
+*.snap.fix
+# Coding Asssitant
+.kiro/settings
+.kiro/specs
+deploy.log
