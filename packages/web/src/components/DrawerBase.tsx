@@ -37,8 +37,8 @@ const DrawerBase: React.FC<Props> = (props) => {
   return (
     <>
       <nav
-        className={`bg-aws-squid-ink flex h-screen w-64 flex-col justify-between text-sm text-white supports-[height:100dvh]:h-dvh print:hidden`}>
-        <div className="flex h-full flex-col">
+        className={`bg-aws-squid-ink flex h-screen w-64 flex-col justify-between overflow-hidden text-sm text-white supports-[height:100dvh]:h-dvh print:hidden`}>
+        <div className="flex h-full min-h-0 flex-col">
           {props.children}
           <div className="flex flex-none items-center justify-between gap-x-2 border-t border-gray-400 px-3 py-2">
             {settingShowEmail && (
